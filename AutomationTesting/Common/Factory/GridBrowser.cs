@@ -4,7 +4,7 @@ using OpenQA.Selenium.Remote;
 
 namespace AutomationTesting.Common.Factory;
 
-public class SeleniumGridBrowser : IBrowser
+public class GridBrowser : IBrowser
 {
     public IWebDriver Create()
     {

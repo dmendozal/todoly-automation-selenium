@@ -7,6 +7,7 @@ public class BrowserFactory
         return browserType switch
         {
             "chrome" => new ChromeBrowser(),
+            "grid" => new GridBrowser(),
             _ => throw new NotImplementedException()
         };
     }

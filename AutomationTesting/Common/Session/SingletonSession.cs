@@ -10,13 +10,13 @@ public class SingletonSession
     /// </summary>
     private static SingletonSession? _instance = null;
     private readonly IWebDriver _browser;
-    
+
     /// <summary>
     /// Private constructor
     /// </summary>
     private SingletonSession()
     {
-        _browser = BrowserFactory.Make("chrome").Create();
+        _browser = BrowserFactory.Make("grid").Create();
     }
 
 
